@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introduccion}{6}{0}{1}
+\beamer@sectionintoc {2}{El nombre $\pi $}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{ D\' ia de celebraci\' on del n\' umero $\pi $}{8}{0}{2}
+\beamer@sectionintoc {3}{f\' ormulas que contienen el n\' umero $\pi $}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Geometr\' ia}{10}{0}{3}
+\beamer@sectionintoc {4}{Bibliografia}{11}{0}{4}

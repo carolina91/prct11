@@ -1,0 +1,100 @@
+%Para compilar en la konsole
+%latex ej1.tex
+%dvips ej1.dvi
+%ps2pdf ej1.ps
+%okular ej1.pdf
+
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+
+\title[Presentación con Beamer]{clases de problemas}
+\author[Carolina]{Carolina Yanes\\
+                                 Técnicas Experimentales\\
+                                 universidad de la laguna
+                 }
+\date[22 de abril de 2014]{22 de abril de 2014}
+
+\usetheme{Madrid}
+
+\definecolor{Mivioleta}{RGB}{122,59,122}
+\definecolor{Miazul}{RGB}{0,88,147}
+\definecolor{Migris}{RGB}{56,61,66}
+\setbeamercolor{palette primary}{use=structure,lg=white,bg=Mivioleta}
+\setbeamercolor{palette secundary}{use=structure,lg=white,bg=Miazul}
+\setbeamercolor{palette terciary}{use=structure,lg=white,bg=Migris}
+
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Indice}
+\tableofcontents[pausesections]
+\end{frame}
+
+\section{Introduccion}
+\begin{frame}
+\frametitle{introduccion}
+$\pi$ (pi) es la relaci\' on entre la longitud de una circunferencia y su di\' ametro, en geometr\' ia euclidiana. 
+ Es un n\' umero irracional y una de las constantes matem\' aticas m\' as importantes. Se emplea frecuentemente 
+ en matem\' aticas, f\' isica e ingenier\' ia. 
+\end{frame}
+
+\section{El nombre $\pi$}
+\begin{frame}
+\frametitle{El nombre $\pi$}
+La notaci\' on con la letra griega $\pi$ proviene de la inicial de las palabras de origen griego 'periferia' y 'per\' imetro' de un c\' irculo, notaci\' on que fue utilizada primero por William Oughtred (1574-1660) y cuyo uso fue propuesto por el matem\' atico gal\' es William Jones (1675-1749); aunque fue el matem\' atico Leonhard Euler, con su obra Introducci\' on al c\' alculo infinitesimal, de 1748, quien la populariz\' o. Fue conocida anteriormente como constante de Ludolph (en honor al matemático Ludolph van Ceulen) o como constante de Arqu\' imedes (que no se debe confundir con el n\' umero de Arqu\' imedes).
+\end{frame}
+
+\subsection{ D\' ia de celebraci\' on del n\' umero $\pi$}
+\begin{frame}
+\frametitle{D\' ia de celebraci\' on del n\' umero $\pi$}
+Por la forma en que se escribe en el formato usado en los Estados Unidos, el 14 de marzo (3/14) se ha convertido en una celebraci\' on no oficial para el "D\' ia Pi", deriv\' andose de la aproximaci\' on de tres d\' igitos de pi: 3,14. Normalmente la celebraci\' on se concentra a la 1:59 PM (en reconocimiento de la aproximaci\' on de seis d\' igitos: 3,14159), aunque algunas personas afirman que en realidad son las 13:59, por lo que lo correcto ser\' ia celebrar a la 1:59 AM.
+\end{frame}
+
+\section{f\' ormulas que contienen el n\' umero $\pi$}
+\begin{frame}
+\frametitle{f\' ormulas que contienen el n\' umero $\pi$}
+Euclides fue el primero en demostrar que la relaci\' on entre una circunferencia y su di\' ametro es una cantidad constante. No obstante, existen diversas definiciones del n\' umero $\pi$.
+\end{frame}
+
+\subsection{Geometr\' ia}
+\begin{frame}
+\frametitle{Geometr\' ia}
+   Veamos distintos tipos de \' areas donde el n\' umero $\pi$ es fundamental para hallarlas.
+\begin{itemize}
+\item \' Area de secciones c\' onicas
+\begin{itemize}
+\item \' Area del c\' irculo de radio r: A = $\pi$*r*r
+\item \' Area interior de la elipse con semiejes a y b: A = $\pi$*a*b
+\end{itemize}
+\begin{itemize}
+\item \' Areas de cuerpos de revoluci\' on
+\begin{itemize}
+\item \' Area del cilindro: 2*$\pi$*r*(r+h)
+\item \' Area del cono: $\pi$*r*r + $\pi$*r*g
+\item \' Area de la esfera: 4*$\pi$*r*r 
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+
+\section{Bibliografia}
+\begin{frame}
+\frametitle{bibliografia}
+\begin{thebibliography}{10}
+\beamertemplatebookbibitems
+\bibitem [guia docente,2014]{guia}
+guia docente(año 2014)
+{\small $http://www.ull.es$}
+\bibitem [guia docente,2013]{guia}
+guia docente(año 2013)
+{\small $http://campusvirtual.ull.es/1213m2/pluginfile.php/224421/mod_resource/content/3/TeoriaLaTeX.2.pdf$}
+\end{thebibliography}
+\end{frame}
+
+\end{document}
